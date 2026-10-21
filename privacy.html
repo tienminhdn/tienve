@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chính sách bảo mật – Tiền Về</title>
+  <meta name="description" content="Tiền Về thu thập những dữ liệu nào, dùng vào việc gì và bạn có quyền gì với dữ liệu của mình.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/icon.png" alt="">Tiền Về</a>
+      <nav>
+        <a href="./">Trang chủ</a>
+        <a href="terms.html">Điều khoản</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="doc">
+    <h1>Chính sách bảo mật</h1>
+    <p class="meta">Cập nhật lần cuối: 21/10/2026</p>
+
+    <p>Chính sách này giải thích ứng dụng Tiền Về ("chúng tôi") thu thập dữ liệu nào, dùng vào việc gì, chia sẻ với ai và bạn có quyền gì. Chúng tôi chỉ thu thập dữ liệu cần thiết để vận hành dịch vụ hoàn tiền và <strong>không bán dữ liệu của bạn cho bên thứ ba</strong>.</p>
+
+    <h2>1. Dữ liệu chúng tôi thu thập</h2>
+    <div class="table-scroll">
+      <table>
+        <tr><th>Dữ liệu</th><th>Mục đích</th></tr>
+        <tr><td>Số điện thoại</td><td>Đăng nhập bằng mã OTP và nhận diện tài khoản.</td></tr>
+        <tr><td>Tên hiển thị (không bắt buộc)</td><td>Hiển thị trong ứng dụng.</td></tr>
+        <tr><td>Link sản phẩm bạn dán hoặc chia sẻ vào app, link hoàn tiền đã tạo</td><td>Tạo link tiếp thị liên kết và gắn đơn hàng với tài khoản của bạn.</td></tr>
+        <tr><td>Thông tin đơn hàng do mạng affiliate gửi về (mã đơn, sản phẩm, giá trị, trạng thái, hoa hồng)</td><td>Tính và hiển thị tiền hoàn, đối soát.</td></tr>
+        <tr><td>Tài khoản nhận tiền (ngân hàng hoặc MoMo: số tài khoản, tên chủ tài khoản)</td><td>Chuyển tiền khi bạn rút.</td></tr>
+        <tr><td>Lịch sử ví và lệnh rút tiền</td><td>Quản lý số dư, xử lý và đối soát lệnh rút.</td></tr>
+        <tr><td>Ảnh CCCD và họ tên trên CCCD (chỉ khi bạn xác minh danh tính)</td><td>Chống gian lận, đối chiếu chủ tài khoản nhận tiền. Ảnh được lưu riêng tư.</td></tr>
+        <tr><td>Nội dung khiếu nại và ảnh đơn hàng bạn gửi</td><td>Xử lý khiếu nại thiếu đơn.</td></tr>
+        <tr><td>Mã nhận thông báo đẩy của thiết bị</td><td>Gửi thông báo về đơn hàng và rút tiền (nếu bạn cho phép).</td></tr>
+      </table>
+    </div>
+    <p><strong>Bộ nhớ tạm (clipboard):</strong> khi bạn mở ứng dụng, Tiền Về kiểm tra bộ nhớ tạm để gợi ý link sản phẩm bạn vừa sao chép. Nội dung chỉ được xử lý trên máy và không được gửi đi, trừ khi bạn chọn tạo link hoàn tiền từ link đó.</p>
+    <p>Chúng tôi <strong>không</strong> thu thập danh bạ, vị trí, ảnh trong thư viện (trừ ảnh bạn chủ động chọn để gửi), và không dùng công cụ quảng cáo hay theo dõi người dùng giữa các ứng dụng.</p>
+
+    <h2>2. Chia sẻ dữ liệu</h2>
+    <ul>
+      <li><strong>Mạng tiếp thị liên kết (AccessTrade):</strong> nhận link sản phẩm và một mã theo dõi ngẫu nhiên (sub_id) để tạo link và báo cáo đơn hàng. Mã này không chứa số điện thoại hay tên của bạn.</li>
+      <li><strong>Nhà cung cấp hạ tầng:</strong> Supabase (cơ sở dữ liệu và xác thực, máy chủ tại Singapore), Google Firebase (gửi thông báo đẩy), dịch vụ SMS gửi mã OTP.</li>
+      <li><strong>Ngân hàng / ví điện tử:</strong> thông tin cần thiết để chuyển tiền khi bạn rút.</li>
+      <li><strong>Cơ quan nhà nước:</strong> khi pháp luật yêu cầu.</li>
+    </ul>
+
+    <h2>3. Lưu trữ và bảo vệ</h2>
+    <p>Dữ liệu được truyền qua kết nối mã hoá (HTTPS) và lưu trên hạ tầng của Supabase. Mỗi người dùng chỉ đọc được dữ liệu của chính mình. Ảnh CCCD được lưu trong kho riêng tư, chỉ dùng để đối soát. Quyền truy cập của quản trị viên được giới hạn và ghi nhật ký.</p>
+
+    <h2>4. Thời gian lưu trữ</h2>
+    <p>Chúng tôi lưu dữ liệu trong thời gian bạn còn sử dụng tài khoản. Khi bạn xoá tài khoản, thông tin cá nhân, ảnh CCCD, tài khoản nhận tiền và dữ liệu liên quan sẽ bị xoá. Lịch sử giao dịch được ẩn danh và giữ lại trong thời gian pháp luật về kế toán, thuế yêu cầu.</p>
+
+    <h2>5. Quyền của bạn</h2>
+    <ul>
+      <li>Xem và cập nhật thông tin tài khoản, tài khoản nhận tiền trong ứng dụng.</li>
+      <li>Tắt thông báo đẩy trong Cài đặt của iPhone.</li>
+      <li>Xoá tài khoản trong ứng dụng: <em>Tôi → Xoá tài khoản</em>.</li>
+      <li>Yêu cầu cung cấp hoặc chỉnh sửa dữ liệu qua mục <em>Tôi → Trợ giúp &amp; khiếu nại</em>.</li>
+    </ul>
+
+    <h2>6. Trẻ em</h2>
+    <p>Tiền Về dành cho người từ 18 tuổi trở lên. Chúng tôi không cố ý thu thập dữ liệu của trẻ em.</p>
+
+    <h2>7. Thay đổi chính sách</h2>
+    <p>Khi có thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng và cập nhật ngày ở đầu trang này.</p>
+
+    <h2>8. Liên hệ</h2>
+    <p>Mọi câu hỏi về dữ liệu cá nhân, vui lòng gửi qua mục <em>Tôi → Trợ giúp &amp; khiếu nại</em> trong ứng dụng.</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>© 2026 Tiền Về</span>
+      <nav>
+        <a href="./">Trang chủ</a>
+        <a href="terms.html">Điều khoản sử dụng</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
