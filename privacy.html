@@ -24,7 +24,7 @@
 
   <main class="doc">
     <h1>Chính sách bảo mật</h1>
-    <p class="meta">Cập nhật lần cuối: 21/10/2026</p>
+    <p class="meta">Cập nhật lần cuối: 19/11/2026</p>
 
     <p>Chính sách này giải thích ứng dụng Tiền Về ("chúng tôi") thu thập dữ liệu nào, dùng vào việc gì, chia sẻ với ai và bạn có quyền gì. Chúng tôi chỉ thu thập dữ liệu cần thiết để vận hành dịch vụ hoàn tiền và <strong>không bán dữ liệu của bạn cho bên thứ ba</strong>.</p>
 
@@ -33,6 +33,8 @@
       <table>
         <tr><th>Dữ liệu</th><th>Mục đích</th></tr>
         <tr><td>Số điện thoại</td><td>Đăng nhập bằng mã OTP và nhận diện tài khoản.</td></tr>
+        <tr><td>Email và tên từ tài khoản Google hoặc Apple (khi bạn chọn đăng nhập bằng Google / Apple)</td><td>Đăng nhập và giữ dữ liệu khi đổi máy. Với Apple, bạn có thể chọn ẩn email.</td></tr>
+        <tr><td>Mã định danh ngẫu nhiên của tài khoản khách</td><td>Cho phép dùng thử ứng dụng trước khi đăng nhập.</td></tr>
         <tr><td>Tên hiển thị (không bắt buộc)</td><td>Hiển thị trong ứng dụng.</td></tr>
         <tr><td>Link sản phẩm bạn dán hoặc chia sẻ vào app, link hoàn tiền đã tạo</td><td>Tạo link tiếp thị liên kết và gắn đơn hàng với tài khoản của bạn.</td></tr>
         <tr><td>Thông tin đơn hàng do mạng affiliate gửi về (mã đơn, sản phẩm, giá trị, trạng thái, hoa hồng)</td><td>Tính và hiển thị tiền hoàn, đối soát.</td></tr>
@@ -48,8 +50,8 @@
 
     <h2>2. Chia sẻ dữ liệu</h2>
     <ul>
-      <li><strong>Mạng tiếp thị liên kết (AccessTrade):</strong> nhận link sản phẩm và một mã theo dõi ngẫu nhiên (sub_id) để tạo link và báo cáo đơn hàng. Mã này không chứa số điện thoại hay tên của bạn.</li>
-      <li><strong>Nhà cung cấp hạ tầng:</strong> Supabase (cơ sở dữ liệu và xác thực, máy chủ tại Singapore), Google Firebase (gửi thông báo đẩy), dịch vụ SMS gửi mã OTP.</li>
+      <li><strong>Mạng tiếp thị liên kết (AccessTrade, Shopee Affiliate):</strong> nhận link sản phẩm và một mã theo dõi ngẫu nhiên (sub_id) để tạo link và báo cáo đơn hàng. Mã này không chứa số điện thoại hay tên của bạn.</li>
+      <li><strong>Nhà cung cấp hạ tầng:</strong> Supabase (cơ sở dữ liệu và xác thực, máy chủ tại Singapore), Google và Apple (đăng nhập, nếu bạn chọn), Google Firebase (gửi thông báo đẩy), dịch vụ SMS gửi mã OTP.</li>
       <li><strong>Ngân hàng / ví điện tử:</strong> thông tin cần thiết để chuyển tiền khi bạn rút.</li>
       <li><strong>Cơ quan nhà nước:</strong> khi pháp luật yêu cầu.</li>
     </ul>
